@@ -29,7 +29,7 @@ export default function Home() {
           : document.body.scrollTop),
       bw = (pos / (dh - wh)) * 100;
 
-      if (Bar != null) {
+      if (Bar.current != null) {
         Bar.current.style.width = `${bw}%`;
       }
   };
