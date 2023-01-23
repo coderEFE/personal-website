@@ -200,7 +200,7 @@ export default function Home() {
 
           <h2 className={styles.facts}>Fun Facts</h2>
           <div className={styles.card}>
-            <p><u>Favorite music genres:</u> Trap, funk jazz, electro, lo-fi (all instrumental)</p>
+            <p><u>Favorite music genres:</u> Trap, funk jazz, electro, lo-fi</p>
           </div>
           <div className={styles.card}>
             <p><u>Favorite color:</u> <b>Green - #43e080</b></p>
