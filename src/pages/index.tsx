@@ -151,7 +151,7 @@ export default function Home() {
             </p>
             <Carousel className={styles.carousel} showThumbs={false} showStatus={false}>
               <Image src="/robotics.jpg" alt="Robo-Raiders" className="rounded-xl" width={600} height={400}/>
-              <Image src="/thumbnail.jpg" alt="Neural net video"  className="rounded-xl" width={600} height={400}/>
+              <Image src="/thumbnail.png" alt="Neural net video"  className="rounded-xl" width={600} height={400}/>
             </Carousel>
           </div>
         </div>
