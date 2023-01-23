@@ -46,7 +46,7 @@ export default function Home() {
     <div ref={Bar} className={styles.progressBar}></div>
     <div className={styles.container}>
       <Head>
-        <title>Personal Website</title>
+        <title>Ethan Erickson</title>
         <meta name="description" content="Ethan Erickson's Personal Website" />
         <link rel="icon" href="/e-logo.svg" />
       </Head>
@@ -58,7 +58,7 @@ export default function Home() {
           <div className={styles.bio}>
             <Tooltip content={"That's me!"} color="success">
               <span>
-                <img className={styles.pfp} src="https://avatars.githubusercontent.com/CoderEFE" alt="Picture of the dev" width={300} height={300} draggable={false}/>
+                <Image className={styles.pfp} src="/pfp_square.jpg" alt="Picture of the dev" width={300} height={300} draggable={false}/>
               </span>
             </Tooltip>
             <div className={styles.name}>
@@ -73,12 +73,12 @@ export default function Home() {
           <code className={styles.code}>
             I enjoy <Link href="#coder" scroll={false}>computer programming</Link>, <Link href="#runner" scroll={false}>running</Link>, <Link href="#writer" scroll={false}>writing novels</Link>, making <Link href="#musician" scroll={false}>music</Link>, and <Link href="#teacher" scroll={false}>teaching</Link> others about Comp Sci topics.
             <br></br>
-            I'm especially interested in ML, NLP, game development, and web development.
+            I&apos;m especially interested in ML, NLP, game development, and web development.
           </code>
         </div>
 
         <div className={styles.card} id="coder">
-          <code>//Coder</code>
+          <code>{'//Coder'}</code>
           <div>
             <p>
             At age nine, I learned to code through free computer science courses on <a target="_blank" rel="noopener noreferrer" href="https://www.khanacademy.org/">Khanacademy</a> and have since learned a variety of languages including JavaScript, Java, Python, C#, and C++.
@@ -93,7 +93,7 @@ export default function Home() {
         </div>
 
         <div className={styles.card} id="runner">
-          <code>//Runner</code>
+          <code>{'//Runner'}</code>
           <div>
             <p>
             I started running for the <a target="_blank" rel="noopener noreferrer" href="http://www.raincityflyers.com/">Rain City Flyers</a> club at age seven and continued competing in cross country and track throughout all four years of high school.
@@ -109,7 +109,7 @@ export default function Home() {
         </div>
 
         <div className={styles.card} id="writer">
-          <code>//Writer</code>
+          <code>{'//Writer'}</code>
           <div>
             <p>
             I enjoy crafting elaborate plots, primarily of the science fiction and adventure genres. I have self-published a fantasy novel and
@@ -126,7 +126,7 @@ export default function Home() {
         </div>
 
         <div className={styles.card} id="musician">
-          <code>//Musician</code>
+          <code>{'//Musician'}</code>
           <div>
             <p>
             I learned to play piano at a young age, but did not start playing in a band until I joined a local <a target="_blank" rel="noopener noreferrer" href="https://www.seattlejazzed.org/">Seattle JazzEd</a> Ensemble in 2019.
@@ -142,7 +142,7 @@ export default function Home() {
         </div>
 
         <div className={styles.card} id="teacher">
-          <code>//Teacher</code>
+          <code>{'//Teacher'}</code>
           <div>
             <p>
             My parents are both teachers, so it may be inevitable that I follow their lead.
