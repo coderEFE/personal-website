@@ -68,6 +68,86 @@ export default function Home() {
           </div>
         </div>
 
+        <div className={styles.links}>
+          <div className={styles.linkgroup}>
+            <div className={styles.music}>
+              <Image className={styles.mantis} src="/MNTIS.jpg" alt="Mantis Profile Picture" width={80} height={80} />
+              <h2>Music</h2>
+            </div>
+            <div className={styles.buttons}>
+              <Tooltip content={"Spotify"} color="success">
+                <a href="https://open.spotify.com/album/20sULDpG0XShKKZHsUfj7a?si=xIZ94o_gQNWlQDX3z4SAcg" target="_blank" rel="noopener noreferrer">
+                  <span>
+                    <Image src="/spotify.svg" alt="Spotify Logo" width={35} height={35} />
+                  </span>
+                </a>
+              </Tooltip>
+              <Tooltip content={"Youtube Music"} color="error">
+                <a href="https://music.youtube.com/playlist?list=OLAK5uy_moUafy9DuQLiyeAbrUjwdmgu3_eRa_JUc&si=08HyeLuVRw4iYLdU" target="_blank" rel="noopener noreferrer">
+                  <span>
+                    <Image className={styles.ytmusic} src="/youtubemusic.svg" alt="Youtube Music Logo" width={35} height={35} />
+                  </span>
+                </a>
+              </Tooltip>
+              <Tooltip content={"Apple Music"} color="secondary">
+                <a href="https://music.apple.com/us/album/timeless/1754653769" target="_blank" rel="noopener noreferrer">
+                  <span>
+                    <Image src="/apple.svg" alt="Apple Music Logo" width={35} height={35} />
+                  </span>
+                </a>
+              </Tooltip>
+              <Tooltip content={"Amazon Music"} color="warning">
+                <a href="https://music.amazon.com/albums/B0D88K2QF4?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_Mg0g9gO8DkVAUaJMydMBBcILu" target="_blank" rel="noopener noreferrer">
+                  <span>
+                    <Image src="/amazon.svg" alt="Amazon Music Logo" width={35} height={35} />
+                  </span>
+                </a>
+              </Tooltip>
+            </div>
+          </div>
+
+          <div className={styles.linkgroup}>
+            <h2>Socials</h2>
+            <div className={styles.buttons}>
+              <Tooltip content={"coderEFE"} color="success">
+                <a href="https://github.com/coderEFE" target="_blank" rel="noopener noreferrer">
+                  <span>
+                    <Image src="/github.svg" alt="Github Logo" width={35} height={35} />
+                  </span>
+                </a>
+              </Tooltip>
+              <Tooltip content={"Ethan Erickson"} color="success">
+                <a href="https://www.linkedin.com/in/3than3rickson" target="_blank" rel="noopener noreferrer">
+                  <span>
+                    <Image src="/linkedin.svg" alt="LinkedIn Logo" width={35} height={35} />
+                  </span>
+                </a>
+              </Tooltip>
+              <Tooltip content={"Personal Channel"} color="success">
+                <a href="https://www.youtube.com/@3than3rickson" target="_blank" rel="noopener noreferrer">
+                  <span>
+                    <Image src="/youtube.svg" alt="Youtube Logo" width={35} height={35} />
+                  </span>
+                </a>
+              </Tooltip>
+              <Tooltip content={"3than_3rickson"} color="success">
+                <a href="https://www.instagram.com/3than_3rickson/" target="_blank" rel="noopener noreferrer">
+                  <span>
+                    <Image src="/instagram.svg" alt="Instagram Logo" width={35} height={35} />
+                  </span>
+                </a>
+              </Tooltip>
+              <Tooltip content={"Game Development"} color="success">
+                <a href="https://www.youtube.com/@sst_studios/" target="_blank" rel="noopener noreferrer">
+                  <span>
+                    <Image src="/youtube.svg" alt="Youtube Logo" width={35} height={35} />
+                  </span>
+                </a>
+              </Tooltip>
+            </div>
+          </div>
+        </div>
+
         <div className={styles.statement}>
           <h2>About me</h2>
           <code className={styles.code}>
@@ -157,47 +237,6 @@ export default function Home() {
         </div>
 
         <div className={styles.extra}>
-          <h2>Socials</h2>
-          <div>
-            <Tooltip content={"coderEFE"} color="success">
-              <a href="https://github.com/coderEFE" target="_blank" rel="noopener noreferrer">
-                <span>
-                  <Image src="/github.svg" alt="Github Logo" width={30} height={30} />
-                </span>
-              </a>
-            </Tooltip>
-            <Tooltip content={"Ethan Erickson"} color="success">
-              <a href="https://www.linkedin.com/in/3than3rickson" target="_blank" rel="noopener noreferrer">
-                <span>
-                  <Image src="/linkedin.svg" alt="LinkedIn Logo" width={30} height={30} />
-                </span>
-              </a>
-            </Tooltip>
-            <Tooltip content={"Personal Channel"} color="success">
-              <a href="https://www.youtube.com/@3than3rickson" target="_blank" rel="noopener noreferrer">
-                <span>
-                  <Image src="/youtube.svg" alt="Youtube Logo" width={30} height={30} />
-                </span>
-              </a>
-            </Tooltip>
-            <Tooltip content={"3than_3rickson"} color="success">
-              <a href="https://www.instagram.com/3than_3rickson/" target="_blank" rel="noopener noreferrer">
-                <span>
-                  <Image src="/instagram.svg" alt="Instagram Logo" width={30} height={30} />
-                </span>
-              </a>
-            </Tooltip>
-            <Tooltip content={"Game Development"} color="success">
-              <a href="https://www.youtube.com/@sst_studios/" target="_blank" rel="noopener noreferrer">
-                <span>
-                  <Image src="/youtube.svg" alt="Youtube Logo" width={30} height={30} />
-                </span>
-              </a>
-            </Tooltip>
-          </div>
-
-          <br></br>
-
           <h2 className={styles.facts}>Fun Facts</h2>
           <div className={styles.card}>
             <p><u>Favorite music genres:</u> Trap, funk jazz, electro, lo-fi</p>
@@ -220,7 +259,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Developed by Ethan Erickson ⋅ 2023
+          Developed by Ethan Erickson ⋅ 2024
         </a>
       </footer>
     </div>
