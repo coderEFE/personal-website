@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Inter } from '@next/font/google'
+import { Inter } from "next/font/google"
 import styles from '@/styles/Home.module.css'
 import { Tooltip } from '@nextui-org/react'
 import { Carousel } from 'react-responsive-carousel'
@@ -76,28 +76,28 @@ export default function Home() {
             </div>
             <div className={styles.buttons}>
               <Tooltip content={"Spotify"} color="success">
-                <a href="https://open.spotify.com/album/20sULDpG0XShKKZHsUfj7a?si=xIZ94o_gQNWlQDX3z4SAcg" target="_blank" rel="noopener noreferrer">
+                <a href="https://open.spotify.com/artist/3ovZ8fuAdN3sTuOBWSsMSp" target="_blank" rel="noopener noreferrer">
                   <span>
                     <Image src="/spotify.svg" alt="Spotify Logo" width={35} height={35} />
                   </span>
                 </a>
               </Tooltip>
               <Tooltip content={"Youtube Music"} color="error">
-                <a href="https://music.youtube.com/playlist?list=OLAK5uy_moUafy9DuQLiyeAbrUjwdmgu3_eRa_JUc&si=08HyeLuVRw4iYLdU" target="_blank" rel="noopener noreferrer">
+                <a href="https://music.youtube.com/channel/UC25QYgnMuCb5mm8UUsMxPZQ" target="_blank" rel="noopener noreferrer">
                   <span>
                     <Image className={styles.ytmusic} src="/youtubemusic.svg" alt="Youtube Music Logo" width={35} height={35} />
                   </span>
                 </a>
               </Tooltip>
               <Tooltip content={"Apple Music"} color="secondary">
-                <a href="https://music.apple.com/us/album/timeless/1754653769" target="_blank" rel="noopener noreferrer">
+                <a href="https://music.apple.com/us/artist/mntis/1754652274" target="_blank" rel="noopener noreferrer">
                   <span>
                     <Image src="/apple.svg" alt="Apple Music Logo" width={35} height={35} />
                   </span>
                 </a>
               </Tooltip>
               <Tooltip content={"Amazon Music"} color="warning">
-                <a href="https://music.amazon.com/albums/B0D88K2QF4?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_Mg0g9gO8DkVAUaJMydMBBcILu" target="_blank" rel="noopener noreferrer">
+                <a href="https://music.amazon.com/artists/B0D88K6FFS/mntis" target="_blank" rel="noopener noreferrer">
                   <span>
                     <Image src="/amazon.svg" alt="Amazon Music Logo" width={35} height={35} />
                   </span>
