@@ -94,10 +94,6 @@
   text-align: center;
 }
 
-.name {
-  margin-left: 3%;
-}
-
 .pfp {
   border-radius: 999px;
   animation: load 1.5s linear;
@@ -190,7 +186,7 @@
 .sectionHeader {
   color: #adb6bb;
   font-size: 3rem;
-  padding: 30px 10px 10px 20px;
+  padding: 30px 10px 10px 10px;
   text-align: center;
 }
 
@@ -200,7 +196,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   display: block;
-  margin: 1rem 3rem 2rem 3rem;
+  margin: 1rem 2rem 2rem 2rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
@@ -369,10 +365,19 @@
 
 @media (max-width: 530px) {
   .name h2 {
-    font-size: 6vw;
+    font-size: 5vw;
+    text-align: center;
   }
   .name h3 {
-    font-size: 9vw;
+    margin-top: 1rem;
+    font-size: 8vw;
+    text-align: center;
+  }
+}
+
+@media (min-width: 531px) {
+  .name {
+    margin-left: 3%;
   }
 }
 
