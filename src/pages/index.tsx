@@ -153,32 +153,39 @@ export default function Home() {
 
         <div id="experience">
           <h2 className={styles.sectionHeader}>Work Experience</h2>
+          <div className={styles.resume}>
+            <object
+              data="/EthanErickson_Oct2025.pdf" 
+              type="application/pdf" 
+              width="750px" 
+              height="1000px"
+            >
+            <p className={styles.backupResumeText}>PDF viewer failed to load. <a href="/EthanErickson_Oct2025.pdf">Download Resume PDF</a></p>
+            </object>
+          </div>
           <div className={styles.card}>
-            <code>{'Software Engineer Intern'}</code>
+            <code><strong>{'Software Engineer Intern'}</strong></code>
             <p>Microsoft ⋅ June 2025 - August 2025</p>
             <div>
               <p>
-                • Led development of an AI agent that performed comprehensive analyses of customer-reported incidents, identifying correct root causes for 50% of incidents and reducing time to mitigation by 50+ hours per incident.
-                <br></br>
-                • Created a Model Context Protocol server in C# that exposed tools to the AI agent for querying Kusto databases, reading Azure DevOps wiki pages, reading logs and code files, and finding similar historical incidents.
-                <br></br>
-                • Established an Azure DevOps CI/CD pipeline using YAML to publish the MCP server to an internal package feed when new changes were pushed.
+                My second Microsoft internship involved developing an <b>AI agent</b> that performed comprehensive analyses of customer-reported incidents, identifying correct root causes for <b>50% of incidents</b>. This internal tool was important to members of my team because it reduced time to mitigation by <b>50+ hours per incident</b>.
+                I created a <b>Model Context Protocol</b> server in C# that exposed tools to the AI agent for querying Kusto databases, reading Azure DevOps wiki pages, reading logs and code files, and finding similar historical incidents.
+                I also established an Azure DevOps CI/CD pipeline using YAML to publish the MCP server to an internal package feed when new changes were pushed.
+                This project forced me to reach out to many different on-call engineers to understand their pain points, and I had to collaborate closely with them and other team members to develop a useful tool.
               </p>
               <Image src="/microsoft-setup.jpg" alt="Office setup at Microsoft" className="rounded-xl" width={600} height={400}/>
             </div>
           </div>
           <div className={styles.card}>
-            <code>{'Software Engineer Intern'}</code>
+            <code><strong>{'Software Engineer Intern'}</strong></code>
             <p>Microsoft ⋅ June 2024 - August 2024</p>
             <div>
               <p>
-                • Improved Microsoft's Security Token Service, a tier 0 service processing 200 billion sign-in requests daily, to enable flexible claim matching for workloads from 3rd parties (GitHub, GitLab, Terraform Cloud) to Azure. 
-                <br></br>
-                • Shipped a highly-requested feature into production for large customers in AI and telecommunications. 
-                <br></br>
-                • Researched and benchmarked wildcard matching algorithms, optimizing worst-case scenarios to run less than 1 millisecond. 
-                <br></br>
-                • Wrote extensive unit tests, end-to-end tests, and published a NuGet used by the Azure App Model team.
+                My first Microsoft internship involved improving <b>Microsoft's Security Token Service</b> to enable flexible claim matching for workloads from 3rd parties (GitHub, GitLab, Terraform Cloud) to Azure. 
+                Shipping this feature into production was important because it was <b>highly requested by large customers in AI and telecommunications</b>. 
+                I Researched and benchmarked wildcard matching algorithms, optimizing worst-case scenarios to run <b>less than 1 millisecond</b>. 
+                I also wrote extensive unit tests, end-to-end tests, and published a NuGet used by the Azure App Model team.
+                This project required me to learn about authentication protocols, read and understand a large codebase, and thouroughly test my code under a variety of edge cases.
               </p>
               <Image src="/microsoft-campus.jpg" alt="Redmond campus at Microsoft" className="rounded-xl" width={600} height={400}/>
             </div>

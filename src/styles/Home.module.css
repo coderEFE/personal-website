@@ -241,6 +241,22 @@
   flex-wrap: wrap;
 }*/
 
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backupResumeText {
+  color: #adb6bb;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.backupResumeText a {
+  color: #fc49ab;
+}
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
