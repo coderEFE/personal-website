@@ -257,6 +257,12 @@
   color: #fc49ab;
 }
 
+@media screen and (max-width: 800px) {
+  .resume {
+    display: none;
+  }
+}
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
